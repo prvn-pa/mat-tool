@@ -13,7 +13,7 @@ Advanced Tools for Materials Science
 **Post Doctoral Fellow, IISER Tirupati**
 ##### ✉:`contact@prvn.info`
 
-View this slide deck here: **https://bit.ly/3ed6shV**
+View this slide deck here: **https://bit.ly/2OnAzIu**
 
 ---
 ![bg opacity](img/vc.jpg)
