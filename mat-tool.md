@@ -96,10 +96,11 @@ Source: [http://cmt.dur.ac.uk/sjc/thesis_dlc/node37.html](http://cmt.dur.ac.uk/s
 ## References:
 
 1. Computational Materials Science: An Introduction by June Lee
-2. Avogadro: https://avogadro.cc/
-3. Gabedit: http://gabedit.sourceforge.net/
-4. Orca: https://sites.google.com/site/orcainputlibrary/home
-5. MOPAC: http://openmopac.net/MOPAC2016.html
+2. Tutorials: https://www.comats.xyz
+3. Avogadro: https://avogadro.cc/
+4. Gabedit: http://gabedit.sourceforge.net/
+5. Orca: https://sites.google.com/site/orcainputlibrary/home
+6. MOPAC: http://openmopac.net/MOPAC2016.html
 
 ---
 
