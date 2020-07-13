@@ -1,0 +1,11 @@
+! Opt TightSCF B3LYP/G
+! PrintBasis 6-31G(d,p)
+%geom
+     	Calc_Hess true
+        Recalc_Hess 10
+ end #geom
+%output
+     print[p_mos] 1
+ end #output
+* xyzfile 0  1 methane.xyz
+

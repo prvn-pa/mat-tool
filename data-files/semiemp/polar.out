@@ -1,0 +1,422 @@
+ *******************************************************************************
+ ** Site#: 18106        For non-commercial use only    Version 20.191L 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 20.191L, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 362**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Mon Jul 13 22:15:44 2020  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  POLAR      - CALCULATE FIRST, SECOND AND THIRD-ORDER POLARIZABILITIES
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  AUX        - OUTPUT AUXILIARY INFORMATION
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ AUX LARGE CHARGE=0 POLAR PM7
+ zno
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Zn         -1.22148073  *   1.59750079  *   0.00000000  *
+     2      Zn         -3.83052590  *   1.52613996  *   0.00000000  *
+     3       O         -2.56588114  *   3.01614229  *   0.00000000  *
+     4       O         -2.48612567  *   0.10749619  *   0.00000000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1        Zn         -1.2215      1.5975      0.0000
+     2        Zn         -3.8305      1.5261      0.0000
+     3         O         -2.5659      3.0161      0.0000
+     4         O         -2.4861      0.1075      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: O2 Zn2  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D2h 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 8
+
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.48864 IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ AUX LARGE CHARGE=0 POLAR PM7
+ zno
+
+
+
+     GRADIENTS WERE INITIALLY ACCEPTABLY SMALL                
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 20.191L)
+                                                       Mon Jul 13 22:15:44 2020
+                                                       No. of days remaining = 362
+
+
+
+
+          FINAL HEAT OF FORMATION =         82.21627 KCAL/MOL =     343.99287 KJ/MOL
+
+
+          TOTAL ENERGY            =       -640.12251 EV
+          ELECTRONIC ENERGY       =      -1112.72228 EV  POINT GROUP:     D2h 
+          CORE-CORE REPULSION     =        472.59977 EV
+          COSMO AREA              =         83.73 SQUARE ANGSTROMS
+          COSMO VOLUME            =         63.64 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.48864 = 0.24432 PER ATOM
+          IONIZATION POTENTIAL    =          7.908145 EV
+          HOMO LUMO ENERGIES (EV) =         -7.908 -0.783
+          NO. OF FILLED LEVELS    =          8
+          MOLECULAR WEIGHT        =        162.7588
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            O     4    O     3     2.90974
+           Zn     2   Zn     1     2.61002
+           Zn     1   Zn     2     0.00000
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         =          0.031 SECONDS
+          COMPUTATION TIME        =          0.015 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Zn         -1.22148073  *   1.59750079  *   0.00000000  *
+     2      Zn         -3.83052590  *   1.52613996  *   0.00000000  *
+     3       O         -2.56588114  *   3.01614229  *   0.00000000  *
+     4       O         -2.48612567  *   0.10749619  *   0.00000000  *
+
+                             CARTESIAN COORDINATES
+
+   1   Zn       -1.221480730     1.597500790     0.000000000
+   2   Zn       -3.830525900     1.526139960     0.000000000
+   3    O       -2.565881140     3.016142290     0.000000000
+   4    O       -2.486125670     0.107496190     0.000000000
+
+
+           Empirical Formula: O2 Zn2  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D2h 
+
+
+                  EIGENVALUES  
+ -25.09684 -21.40730 -12.69262 -10.12225  -9.51633  -8.66352  -8.35405  -7.90814
+  -0.78263   0.70688   3.51347   4.24694   5.06091   5.39532   6.34329   7.18318
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1         Zn           0.784788        1.2152     0.86434     0.35087
+    2         Zn           0.784788        1.2152     0.86434     0.35087
+    3          O          -0.784789        6.7848     1.92484     4.85995
+    4          O          -0.784788        6.7848     1.92484     4.85994
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.000    -0.000     0.000     0.000
+ HYBRID        -0.000     0.000     0.000     0.000
+ SUM            0.000     0.000     0.000     0.000
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1 Zn   0.86434   0.04230   0.27348   0.03509
+    2 Zn   0.86434   0.04230   0.27348   0.03509
+    3  O   1.92484   1.63623   1.25880   1.96491
+    4  O   1.92484   1.63623   1.25880   1.96491
+ ******************** TDHF POLARIZABILITIES ********************
+
+
+
+          MOLECULAR WEIGHT =  162.76
+
+
+
+          ROTATIONAL CONSTANTS IN CM(-1)
+
+          A =    0.24889415   B =    0.07569961   C =    0.05804545
+
+
+
+           PRINCIPAL MOMENTS OF INERTIA IN UNITS OF 10**(-40)*GRAM-CM**2
+
+          A =      112.4686   B =      369.7875   C =      482.2561
+
+
+ ROTATION MATRIX FOR ORIENTATION OF MOLECULE:
+
+         0.999627   -0.027311    0.000000
+         0.027311    0.999627    0.000000
+        -0.000000   -0.000000    1.000000
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM         X         Y         Z
+
+     1        Zn        1.3050    0.0000    0.0000
+     2        Zn       -1.3050   -0.0000   -0.0000
+     3         O       -0.0001    1.4549    0.0000
+     4         O        0.0001   -1.4549   -0.0000
+
+
+ ENERGY OF "REORIENTED" SYSTEM WITHOUT FIELD:       82.2162728449
+
+
+  NFREQ=  3  IWFLB=  0  IBET=  1  IGAM=  1
+  ATOL= 0.10000D-02  BTOL= 0.10000D-02    MAXITU=  500    MAXITA=  150
+
+
+ *****************************************************************
+ CALCULATION OF STATIC FIELD QUANTITIES
+ *****************************************************************
+
+ +++++ ALPHA AT       0.00000 EV.
+
+                           COMPONENTS OF ALPHA
+
+                     *X           *Y           *Z
+           *=X:      29.8721      -0.0086       0.0000
+           *=Y:      -0.0086      35.9591       0.0000
+           *=Z:       0.0000       0.0000      14.0533
+
+  ISOTROPIC AVERAGE ALPHA =      26.62816 A.U. =      3.94589 ANG.**3
+
+ +++++ BETA (SECOND HARMONIC GENERATION) AT       0.00000 EV.
+
+                              COMPONENTS OF BETA
+            *XX         *XY         *YY         *XZ         *YZ         *ZZ
+   *=X    -0.00013    -0.00205    -0.00012     0.00000     0.00000    -0.00003
+   *=Y    -0.00205    -0.00012     0.00236     0.00000     0.00000    -0.00014
+   *=Z     0.00000     0.00000     0.00000    -0.00003    -0.00014     0.00000
+
+
+ AVERAGE BETAX(SHG) VALUE AT   0.00000 EV =         -0.0002 a.u. = -0.145200E-35 ESU
+ AVERAGE BETAY(SHG) VALUE AT   0.00000 EV =          0.0001 a.u. =  0.920159E-36 ESU
+ AVERAGE BETAZ(SHG) VALUE AT   0.00000 EV =          0.0000 a.u. =  0.342704E-44 ESU
+
+
+
+ AVERAGE BETA (SHG) VALUE AT   0.00000 EV =          0.0002 a.u. =  0.171901E-35 ESU
+   (1 a.u. = 8.639418X10-33 esu)
+
+
+
+ +++++ ALPHA AT       0.00000 EV.
+
+                           COMPONENTS OF ALPHA
+
+                     *X           *Y           *Z
+           *=X:      29.8721      -0.0086       0.0000
+           *=Y:      -0.0086      35.9591       0.0000
+           *=Z:       0.0000       0.0000      14.0533
+
+  ISOTROPIC AVERAGE ALPHA =      26.62816 A.U. =      3.94589 ANG.**3
+
+
+ GAMMA (THIRD HARMONIC GENERATION) AT    0.00000 EV.
+
+
+ GAMMA(X,X,X,X) =          5208.49125
+ GAMMA(Y,Y,Y,Y) =        -19168.77318
+ GAMMA(Z,Z,Z,Z) =          -206.58786
+ GAMMA(X,X,Y,Y) =         12661.78931
+ GAMMA(X,X,Z,Z) =          1354.86794
+ GAMMA(Y,Y,X,X) =         12661.77410
+ GAMMA(Y,Y,Z,Z) =          3873.99982
+ GAMMA(Z,Z,X,X) =          1354.89032
+ GAMMA(Z,Z,Y,Y) =          3874.02442
+
+
+ AVERAGE GAMMA VALUE AT    0.00000 =          4322.89522 a.u. =         2177.31375 ESU (X10-39)
+
+
+
+
+ **********************************************************************
+ CALCULATION FOR A FREQUENCY OF    0.25000 EV  =       0.00919 A.U. 
+                  WAVELENGTH OF    4959.37 NM  =    2016.38525 CM(-1)
+ **********************************************************************
+
+ +++++ ALPHA AT       0.25000 EV.
+
+                           COMPONENTS OF ALPHA
+
+                     *X           *Y           *Z
+           *=X:      29.9105      -0.0087       0.0000
+           *=Y:      -0.0087      36.1217       0.0000
+           *=Z:       0.0000       0.0000      14.0644
+
+  ISOTROPIC AVERAGE ALPHA =      26.69884 A.U. =      3.95636 ANG.**3
+
+ +++++ BETA (SECOND HARMONIC GENERATION) AT       0.25000 EV.
+
+                              COMPONENTS OF BETA
+            *XX         *XY         *YY         *XZ         *YZ         *ZZ
+   *=X    -0.00013    -0.00210    -0.00012     0.00000     0.00000    -0.00003
+   *=Y    -0.00209    -0.00013     0.00244     0.00000     0.00000    -0.00013
+   *=Z     0.00000     0.00000     0.00000    -0.00003    -0.00013     0.00000
+
+
+ AVERAGE BETAX(SHG) VALUE AT   0.25000 EV =         -0.0002 a.u. = -0.149753E-35 ESU
+ AVERAGE BETAY(SHG) VALUE AT   0.25000 EV =          0.0001 a.u. =  0.111845E-35 ESU
+ AVERAGE BETAZ(SHG) VALUE AT   0.25000 EV =          0.0000 a.u. =  0.354403E-44 ESU
+
+
+
+ AVERAGE BETA (SHG) VALUE AT   0.25000 EV =          0.0002 a.u. =  0.186910E-35 ESU
+   (1 a.u. = 8.639418X10-33 esu)
+
+
+
+ +++++ ALPHA AT       0.75000 EV.
+
+                           COMPONENTS OF ALPHA
+
+                     *X           *Y           *Z
+           *=X:      30.2234      -0.0091       0.0000
+           *=Y:      -0.0091      37.5021       0.0000
+           *=Z:       0.0000       0.0000      14.1580
+
+  ISOTROPIC AVERAGE ALPHA =      27.29449 A.U. =      4.04463 ANG.**3
+
+
+ GAMMA (THIRD HARMONIC GENERATION) AT    0.25000 EV.
+
+
+ GAMMA(X,X,X,X) =          5536.33523
+ GAMMA(Y,Y,Y,Y) =        -20864.14989
+ GAMMA(Z,Z,Z,Z) =          -196.85475
+ GAMMA(X,X,Y,Y) =         13033.48322
+ GAMMA(X,X,Z,Z) =          1400.81932
+ GAMMA(Y,Y,X,X) =         14913.17363
+ GAMMA(Y,Y,Z,Z) =          4129.59084
+ GAMMA(Z,Z,X,X) =          1474.06019
+ GAMMA(Z,Z,Y,Y) =          4120.90744
+
+
+ AVERAGE GAMMA VALUE AT    0.25000 =          4709.47305 a.u. =         2372.02150 ESU (X10-39)
+
+
+
+
+ **********************************************************************
+ CALCULATION FOR A FREQUENCY OF    0.50000 EV  =       0.01837 A.U. 
+                  WAVELENGTH OF    2479.68 NM  =    4032.77050 CM(-1)
+ **********************************************************************
+
+ +++++ ALPHA AT       0.50000 EV.
+
+                           COMPONENTS OF ALPHA
+
+                     *X           *Y           *Z
+           *=X:      30.0258      -0.0088       0.0000
+           *=Y:      -0.0088      36.6197       0.0000
+           *=Z:       0.0000       0.0000      14.0980
+
+  ISOTROPIC AVERAGE ALPHA =      26.91449 A.U. =      3.98832 ANG.**3
+
+ +++++ BETA (SECOND HARMONIC GENERATION) AT       0.50000 EV.
+
+                              COMPONENTS OF BETA
+            *XX         *XY         *YY         *XZ         *YZ         *ZZ
+   *=X    -0.00013    -0.00226    -0.00012     0.00000     0.00000    -0.00004
+   *=Y    -0.00225    -0.00016     0.00272     0.00000     0.00000    -0.00012
+   *=Z     0.00000     0.00000     0.00000    -0.00004    -0.00013     0.00000
+
+
+ AVERAGE BETAX(SHG) VALUE AT   0.50000 EV =         -0.0002 a.u. = -0.165700E-35 ESU
+ AVERAGE BETAY(SHG) VALUE AT   0.50000 EV =          0.0002 a.u. =  0.177961E-35 ESU
+ AVERAGE BETAZ(SHG) VALUE AT   0.50000 EV =          0.0000 a.u. =  0.396260E-44 ESU
+
+
+
+ AVERAGE BETA (SHG) VALUE AT   0.50000 EV =          0.0003 a.u. =  0.243160E-35 ESU
+   (1 a.u. = 8.639418X10-33 esu)
+
+
+
+ +++++ ALPHA AT       1.50000 EV.
+
+                           COMPONENTS OF ALPHA
+
+                     *X           *Y           *Z
+           *=X:      31.4247      -0.0112       0.0000
+           *=Y:      -0.0112      43.8247       0.0000
+           *=Z:       0.0000       0.0000      14.6348
+
+  ISOTROPIC AVERAGE ALPHA =      29.96139 A.U. =      4.43982 ANG.**3
+
+
+ GAMMA (THIRD HARMONIC GENERATION) AT    0.50000 EV.
+
+
+ GAMMA(X,X,X,X) =          6728.07018
+ GAMMA(Y,Y,Y,Y) =        -27748.46411
+ GAMMA(Z,Z,Z,Z) =          -144.59678
+ GAMMA(X,X,Y,Y) =         14310.00390
+ GAMMA(X,X,Z,Z) =          1557.48821
+ GAMMA(Y,Y,X,X) =         24824.86397
+ GAMMA(Y,Y,Z,Z) =          5099.82387
+ GAMMA(Z,Z,X,X) =          2092.76674
+ GAMMA(Z,Z,Y,Y) =          5603.14781
+
+
+ AVERAGE GAMMA VALUE AT    0.50000 =          6464.62075 a.u. =         3256.03720 ESU (X10-39)
+
+
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.07 SECONDS
+
+ == MOPAC DONE ==

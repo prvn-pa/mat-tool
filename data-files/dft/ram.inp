@@ -1,0 +1,12 @@
+! TightSCF B3LYP/G NUMFREQ
+! PrintBasis 6-31G(d,p)
+
+%ELPROP
+   POLAR 1
+END
+
+%output
+     print[p_mos] 1
+ end #output
+* xyzfile 0  1 geo.xyz
+

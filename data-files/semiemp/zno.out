@@ -1,0 +1,190 @@
+ *******************************************************************************
+ ** Site#: 18106        For non-commercial use only    Version 20.191L 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 20.191L, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 362**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Mon Jul 13 22:13:32 2020  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  GNORM      - EXIT WHEN GRADIENT NORM DROPS BELOW 1.000
+ *  AUX        - OUTPUT AUXILIARY INFORMATION
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ AUX LARGE CHARGE=0 GNORM=1 PM7
+ zno
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Zn         -1.46018000  *   1.59097000  *   0.00000000  *
+     2      Zn         -3.59183000  *   1.53267000  *   0.00000000  *
+     3       O         -2.56691000  *   3.05759000  *   0.00000000  *
+     4       O         -2.48509000  *   0.06605000  *   0.00000000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1        Zn         -1.4602      1.5910      0.0000
+     2        Zn         -3.5918      1.5327      0.0000
+     3         O         -2.5669      3.0576      0.0000
+     4         O         -2.4851      0.0660      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: O2 Zn2  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D2h 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 8
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:   505.457 HEAT:  150.1153
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   129.753 HEAT:  90.57036
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    49.593 HEAT:  83.92297
+ CYCLE:     4 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     9.390 HEAT:  82.31541
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.225 HEAT:  82.21895
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.491 HEAT:  82.21627
+
+     GRADIENT =  0.49051 IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ AUX LARGE CHARGE=0 GNORM=1 PM7
+ zno
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 20.191L)
+                                                       Mon Jul 13 22:13:32 2020
+                                                       No. of days remaining = 362
+
+
+
+
+          FINAL HEAT OF FORMATION =         82.21627 KCAL/MOL =     343.99287 KJ/MOL
+
+
+          TOTAL ENERGY            =       -640.12251 EV
+          ELECTRONIC ENERGY       =      -1112.72228 EV  POINT GROUP:     D2h 
+          CORE-CORE REPULSION     =        472.59977 EV
+          COSMO AREA              =         83.73 SQUARE ANGSTROMS
+          COSMO VOLUME            =         63.64 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.49051 = 0.24525 PER ATOM
+          IONIZATION POTENTIAL    =          7.908137 EV
+          HOMO LUMO ENERGIES (EV) =         -7.908 -0.783
+          NO. OF FILLED LEVELS    =          8
+          MOLECULAR WEIGHT        =        162.7588
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            O     4    O     3     2.90974
+           Zn     2   Zn     1     2.61002
+           Zn     1    O     3     0.00000
+
+
+          SCF CALCULATIONS        =          7
+ 
+          WALL-CLOCK TIME         =          0.062 SECONDS
+          COMPUTATION TIME        =          0.028 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Zn         -1.22148073  *   1.59750079  *   0.00000000  *
+     2      Zn         -3.83052590  *   1.52613996  *   0.00000000  *
+     3       O         -2.56588114  *   3.01614229  *  -0.00000000  *
+     4       O         -2.48612567  *   0.10749619  *  -0.00000000  *
+
+                             CARTESIAN COORDINATES
+
+   1   Zn       -1.221480735     1.597500787     0.000000000
+   2   Zn       -3.830525895     1.526139963     0.000000000
+   3    O       -2.565881145     3.016142291    -0.000000000
+   4    O       -2.486125668     0.107496193    -0.000000000
+
+
+           Empirical Formula: O2 Zn2  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D2h 
+
+
+                  EIGENVALUES  
+ -25.09680 -21.40724 -12.69258 -10.12223  -9.51632  -8.66350  -8.35403  -7.90814
+  -0.78262   0.70690   3.51347   4.24694   5.06092   5.39533   6.34331   7.18320
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1         Zn           0.784794        1.2152     0.86433     0.35088
+    2         Zn           0.784794        1.2152     0.86433     0.35088
+    3          O          -0.784795        6.7848     1.92484     4.85995
+    4          O          -0.784794        6.7848     1.92484     4.85995
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.000    -0.000     0.000     0.000
+ HYBRID         0.000     0.000     0.000     0.000
+ SUM            0.000     0.000     0.000     0.000
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1 Zn   0.86433   0.04230   0.27349   0.03509
+    2 Zn   0.86433   0.04230   0.27349   0.03509
+    3  O   1.92484   1.63623   1.25881   1.96491
+    4  O   1.92484   1.63623   1.25881   1.96491
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.06 SECONDS
+
+ == MOPAC DONE ==

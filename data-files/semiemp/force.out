@@ -1,0 +1,353 @@
+ *******************************************************************************
+ ** Site#: 18106        For non-commercial use only    Version 20.191L 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 20.191L, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 362**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Mon Jul 13 22:14:34 2020  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  FORCE      - FORCE CALCULATION SPECIFIED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  AUX        - OUTPUT AUXILIARY INFORMATION
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ AUX LARGE CHARGE=0 FORCE PM7
+ zno
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Zn         -1.22148073  *   1.59750079  *   0.00000000  *
+     2      Zn         -3.83052590  *   1.52613996  *   0.00000000  *
+     3       O         -2.56588114  *   3.01614229  *   0.00000000  *
+     4       O         -2.48612567  *   0.10749619  *   0.00000000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1        Zn         -1.2215      1.5975      0.0000
+     2        Zn         -3.8305      1.5261      0.0000
+     3         O         -2.5659      3.0161      0.0000
+     4         O         -2.4861      0.1075      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: O2 Zn2  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D2h 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 8
+
+
+
+          HEAT OF FORMATION =      82.216269 KCALS/MOLE
+
+
+          CARTESIAN COORDINATE DERIVATIVES
+
+   NUMBER  ATOM         X            Y            Z
+
+     1      Zn     -0.265007    -0.008628     0.000000
+     2      Zn      0.264978     0.009026     0.000000
+     3       O      0.007983     0.221733    -0.000000
+     4       O     -0.007954    -0.222130     0.000000
+ 
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -0.000    -0.000     0.000     0.000
+ HYBRID         0.000     0.000     0.000     0.000
+ SUM           -0.000     0.000     0.000     0.000
+
+
+          GRADIENT NORM =   0.48911
+
+          MOLECULAR WEIGHT =  162.76
+
+
+
+          ROTATIONAL CONSTANTS IN CM(-1)
+
+          A =    0.24889415   B =    0.07569961   C =    0.05804545
+
+
+
+           PRINCIPAL MOMENTS OF INERTIA IN UNITS OF 10**(-40)*GRAM-CM**2
+
+          A =      112.4686   B =      369.7875   C =      482.2561
+
+
+          ORIENTATION OF MOLECULE IN FORCE CALCULATION
+
+    NO.       ATOM         X         Y         Z
+
+     1         Zn      -1.3050    0.0000    0.0000
+     2         Zn       1.3050    0.0000    0.0000
+     3          O       0.0001    1.4549    0.0000
+     4          O      -0.0001   -1.4549   -0.0000
+
+
+    FIRST DERIVATIVES WILL BE USED IN THE CALCULATION OF SECOND DERIVATIVES
+
+    FOR POINT-GROUP D2h  THERE ARE   8 UNIQUE SYMMETRY FUNCTIONS.
+
+ STEP:   1 TIME =     0.01 SECS, INTEGRAL =      0.01 TIME LEFT: 172799.99
+ STEP:   2 TIME =     0.00 SECS, INTEGRAL =      0.01 TIME LEFT: 172799.99
+ STEP:   3 TIME =     0.00 SECS, INTEGRAL =      0.01 TIME LEFT: 172799.99
+ STEP:   4                       INTEGRAL =      0.01 TIME LEFT: 172799.99
+ STEP:   5                       INTEGRAL =      0.01 TIME LEFT: 172799.99
+ STEP:   6                       INTEGRAL =      0.01 TIME LEFT: 172799.99
+ STEP:   7 TIME =     0.01 SECS, INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:   8 TIME =     0.00 SECS, INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:   9 TIME =     0.00 SECS, INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:  10                       INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:  11                       INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:  12                       INTEGRAL =      0.02 TIME LEFT: 172799.98
+
+(To convert to Hartree/Bohr^2, multiply by (10^(-21) x N x a0^2)/(4.184 x 627.51) =  0.0642)
+
+
+           FORCE MATRIX IN MILLIDYNES/ANGSTROM
+
+
+                 Zn  1      Zn  2       O  3       O  4
+ ------------------------------------------------------
+    Zn    1   3.511440
+    Zn    2   2.579139   3.511440
+     O    3   1.087422   1.087325   1.892163
+     O    4   1.087915   1.087915   0.581708   1.892163
+
+
+          HEAT OF FORMATION =      82.216269 KCALS/MOLE
+
+
+          TRIVIAL VIBRATIONS, SHOULD BE ZERO
+
+  -0.0011=TX  -0.0000=TY  -0.0009=TZ  -0.1024=RX   0.1156=RY   0.0045=RZ
+
+
+      MOLECULAR POINT GROUP   :   D2h 
+
+
+           EIGENVECTORS  
+
+
+   Root No.       1         2         3         4         5         6
+
+                 1 B3u     1 B3g     1 B2u     1 Ag      1 B1u     2 Ag  
+
+                   0.5       1.2       1.6       1.8       2.4       6.5
+  
+           1   -0.0006   -0.0001    0.5005    0.2350   -0.0001    0.6665
+           2   -0.0014    0.5264    0.0001   -0.0002   -0.5000   -0.0001
+           3   -0.5000   -0.0015   -0.0006    0.0001   -0.0002   -0.0000
+           4   -0.0007   -0.0003    0.4994   -0.2373    0.0000   -0.6665
+           5    0.0018   -0.5264   -0.0002    0.0001   -0.5000   -0.0000
+           6   -0.5000   -0.0015   -0.0006    0.0001   -0.0002   -0.0000
+           7    0.0021   -0.4720   -0.5002    0.0014    0.0000    0.0000
+           8   -0.0001    0.0002    0.0016    0.6665    0.5000   -0.2361
+           9    0.5000    0.0015    0.0006   -0.0001    0.0002    0.0000
+          10   -0.0008    0.4723   -0.4998    0.0010    0.0000   -0.0000
+          11   -0.0004   -0.0002   -0.0015   -0.6665    0.5000    0.2362
+          12    0.5000    0.0015    0.0006   -0.0001    0.0002    0.0000
+
+
+          FORCE CONSTANTS IN MILLIDYNES/ANGSTROM (= 10**5 DYNES/CM)
+
+   0.54126   1.24183   1.62786   1.79060   2.41221   6.46183
+
+
+           ASSOCIATED EIGENVECTORS
+
+
+
+
+    ROOT NO.    1           2           3           4           5           6
+
+             0.54126     1.24183     1.62786     1.79060     2.41221     6.46183
+  
+         1  -0.00061    -0.00007     0.50055     0.23495    -0.00009     0.66652
+         2  -0.00135     0.52638     0.00015    -0.00018    -0.49999    -0.00005
+         3  -0.50000    -0.00150    -0.00065     0.00010    -0.00022    -0.00001
+         4  -0.00068    -0.00028     0.49945    -0.23732     0.00001    -0.66651
+         5   0.00180    -0.52636    -0.00022     0.00014    -0.50001    -0.00000
+         6  -0.50000    -0.00150    -0.00065     0.00010    -0.00022    -0.00001
+         7   0.00206    -0.47198    -0.50016     0.00137     0.00003     0.00000
+         8  -0.00009     0.00021     0.00162     0.66653     0.49998    -0.23611
+         9   0.50000     0.00150     0.00065    -0.00010     0.00022     0.00001
+        10  -0.00077     0.47233    -0.49983     0.00099     0.00005    -0.00001
+        11  -0.00036    -0.00023    -0.00154    -0.66649     0.50002     0.23617
+        12   0.50000     0.00150     0.00065    -0.00010     0.00022     0.00001
+
+          ZERO POINT ENERGY       2.950 KCAL/MOL
+
+
+           FREQUENCIES, REDUCED MASSES AND VIBRATIONAL DIPOLES
+
+
+
+   I         1         2         3         4         5         6
+ FREQ(I)  189.1983  277.4391  327.9426  331.8492  399.0745  537.8570
+
+ MASS(I)   6.42694   6.48148   6.42694  19.06912   6.42694   6.52621
+
+ DIPX(I)   0.00000  -0.00000  -2.95837   0.00000   0.00002  -0.00000
+ DIPY(I)   0.00000  -0.00000  -0.00009   0.00000  -0.73434  -0.00000
+ DIPZ(I)  -3.64133  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+
+ DIPT(I)   3.64133   0.00000   2.95837   0.00000   0.73434   0.00000
+
+
+   I         7         8         9        10        11        12
+ FREQ(I)    0.0302    0.0189    0.0302   37.6456    6.5644   16.8494
+
+ MASS(I)  21.40888  21.40888  21.40888   7.99970  32.69000  19.65556
+
+ DIPX(I)   0.01186   0.00000   0.00000   0.00000  -0.00000   0.00000
+ DIPY(I)   0.00000  -0.00028  -0.00000   0.00000   0.00000   0.00000
+ DIPZ(I)   0.00000  -0.00000   0.00292  -0.00000   0.00000   0.00000
+
+ DIPT(I)   0.01186   0.00028   0.00292   0.00000   0.00000   0.00000
+
+
+           NORMAL COORDINATE ANALYSIS (Total motion = 1 Angstrom)
+
+
+   Root No.       1         2         3         4         5         6
+
+                 1 B3u     1 B3g     1 B2u     1 Ag      1 B1u     2 Ag  
+
+                 189.2     277.4     327.9     331.8     399.1     537.9
+  
+           1    0.0000    0.0000   -0.0983   -0.2321    0.0000    0.1102
+           2    0.0000   -0.1072   -0.0000   -0.0000   -0.0983   -0.0000
+           3   -0.0983   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+           4   -0.0000   -0.0000   -0.0983    0.2321    0.0000   -0.1102
+           5    0.0000    0.1072   -0.0000    0.0000   -0.0983    0.0000
+           6   -0.0983   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+           7   -0.0000    0.3928    0.4017    0.0000   -0.0000    0.0000
+           8   -0.0000    0.0000    0.0000   -0.2679    0.4017   -0.3898
+           9    0.4017    0.0000    0.0000    0.0000    0.0000    0.0000
+          10    0.0000   -0.3928    0.4017   -0.0000   -0.0000   -0.0000
+          11   -0.0000   -0.0000    0.0000    0.2679    0.4017    0.3898
+          12    0.4017    0.0000    0.0000    0.0000    0.0000    0.0000
+
+
+           MASS-WEIGHTED COORDINATE ANALYSIS (NORMAL COORDINATES)
+
+
+   Root No.       1         2         3         4         5         6
+
+                 1 B3u     1 B3g     1 B2u     1 Ag      1 B1u     2 Ag  
+
+                 189.2     277.4     327.9     331.8     399.1     537.9
+  
+           1    0.0000    0.0000   -0.3135   -0.6140    0.0000    0.3507
+           2    0.0000   -0.3415   -0.0000   -0.0000   -0.3135   -0.0000
+           3   -0.3135   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+           4   -0.0000   -0.0000   -0.3135    0.6140    0.0000   -0.3507
+           5    0.0000    0.3415   -0.0000    0.0000   -0.3135    0.0000
+           6   -0.3135   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+           7   -0.0000    0.6192    0.6338    0.0000   -0.0000    0.0000
+           8   -0.0000    0.0000    0.0000   -0.3507    0.6338   -0.6140
+           9    0.6338    0.0000    0.0000    0.0000    0.0000    0.0000
+          10    0.0000   -0.6192    0.6338   -0.0000   -0.0000   -0.0000
+          11   -0.0000   -0.0000    0.0000    0.3507    0.6338    0.6140
+          12    0.6338    0.0000    0.0000    0.0000    0.0000    0.0000
+
+
+          DESCRIPTION OF VIBRATIONS
+
+
+ VIBRATION          1    1B3u        ATOM PAIR     ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           189.20         Zn2 -- O 3         +24.1% ( 50.8%)      0.0%
+ TRANSITION DIPOLE   3.6413         Zn1 -- O 3         +24.1% ( 50.8%)      0.0%
+ TRAVEL (Ang.)       0.2355         Zn2 -- O 4         +24.1% ( 50.8%)      0.0%
+ REDUCED MASS        6.4269         Zn1 -- O 4         +24.1% ( 50.8%)      0.0%
+ EFFECTIVE MASS     23.0709
+ FORCE CONSTANT      0.1355
+
+ VIBRATION          2    1B3g        ATOM PAIR     ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           277.44         Zn2 -- O 3         +24.3% ( 69.9%)     89.1%
+ TRANSITION DIPOLE   0.0000         Zn1 -- O 4         +24.3% ( 69.9%)     89.1%
+ TRAVEL (Ang.)       0.1936         Zn1 -- O 3         +24.3% ( 69.9%)     89.2%
+ REDUCED MASS        6.4815         Zn2 -- O 4         +24.3% ( 69.9%)     89.2%
+ EFFECTIVE MASS     24.4763
+ FORCE CONSTANT      0.2939
+
+ VIBRATION          3    1B2u        ATOM PAIR     ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           327.94         Zn1 -- O 3         +24.5% ( 65.7%)     44.6%
+ TRANSITION DIPOLE   2.9584         Zn2 -- O 3         +24.5% ( 65.7%)     44.6%
+ TRAVEL (Ang.)       0.1789         Zn1 -- O 4         +24.5% ( 65.7%)     44.6%
+ REDUCED MASS        6.4269         Zn2 -- O 4         +24.5% ( 65.7%)     44.6%
+ EFFECTIVE MASS     23.0709
+ FORCE CONSTANT      0.4072
+
+ VIBRATION          4    1Ag         ATOM PAIR     ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           331.85         Zn1 -- Zn2         +42.5% (102.8%)    100.0%
+ TRANSITION DIPOLE   0.0000         Zn2 -- O 3         +14.4% ( 59.8%)      4.4%
+ TRAVEL (Ang.)       0.1032         Zn1 -- O 4         +14.4% ( 59.8%)      4.4%
+ REDUCED MASS       19.0691         Zn2 -- O 4         +14.4% ( 59.8%)      4.4%
+ EFFECTIVE MASS     58.2704         Zn1 -- O 3         +14.4% ( 59.8%)      4.4%
+ FORCE CONSTANT      1.2373
+
+ VIBRATION          5    1B1u        ATOM PAIR     ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           399.07         Zn2 -- O 3         +24.6% ( 75.2%)     55.4%
+ TRANSITION DIPOLE   0.7343         Zn2 -- O 4         +24.6% ( 75.2%)     55.4%
+ TRAVEL (Ang.)       0.1621         Zn1 -- O 3         +24.6% ( 75.2%)     55.4%
+ REDUCED MASS        6.4269         Zn1 -- O 4         +24.6% ( 75.2%)     55.4%
+ EFFECTIVE MASS     23.0709
+ FORCE CONSTANT      0.6031
+
+ VIBRATION          6    2Ag         ATOM PAIR     ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           537.86         Zn1 -- O 4         +22.8% ( 58.1%)     95.6%
+ TRANSITION DIPOLE   0.0000         Zn2 -- O 3         +22.8% ( 58.1%)     95.6%
+ TRAVEL (Ang.)       0.1386         Zn2 -- O 4         +22.8% ( 58.1%)     95.6%
+ REDUCED MASS        6.5262         Zn1 -- O 3         +22.8% ( 58.1%)     95.6%
+ EFFECTIVE MASS     26.2290
+ FORCE CONSTANT      1.1124
+
+           FORCE CONSTANT IN CARTESIAN COORDINATES (Millidynes/A)
+
+    ATOM   CHEMICAL       X               Y               Z
+   NUMBER   SYMBOL  FORCE CONSTANT  FORCE CONSTANT  FORCE CONSTANT
+
+      1      Zn        3.377155        0.948242        0.136377
+      2      Zn        3.377155        0.948242        0.136377
+      3       O        0.686901        1.758838        0.142226
+      4       O        0.686901        1.758838        0.142226
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.05 SECONDS
+
+ == MOPAC DONE ==

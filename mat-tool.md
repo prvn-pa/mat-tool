@@ -20,116 +20,71 @@ View this slide deck here: **https://bit.ly/3ed6shV**
 
 ## Outline of Talk ##
 
-1. Refine Crystal Structure
-2. Why it is important?
-3. DFT: Geometry and Spectral Analysis
-4. Semiempirical Analysis for Nanostructures
+1. What is Materials Science?
+2. Physical Theories
+3. DFT: The Efficient Beast
+4. Semiempirical Analysis: Poor man's Gold
 
 ---
 ![bg opacity](img/vc.jpg)
 
-## Need Assistance? ##
+## What is Materials Science? ##
 
-![h:350](img/support.png)
-
----
-![bg opacity](img/vc.jpg)
-
-## What you have learned so far? ##
-
-- Installation
-- Basic LaTeX document
-- Tables, figures and math
-- Article, thesis and books
-- Slide decks and posters
+- Solid state / condensed matter physics
+- Electronics, Optics, Magnetics & Thermodynamics
+- Roots to chemistry
+- Branches to biology
+- Contributes to entire humanity
 
 ---
 ![bg opacity](img/vc.jpg)
 
-## Versions
+## Materials Science Tetrahedron ##
 
-- `latexdiff` get the difference
+![w:800](https://i.pinimg.com/originals/74/5b/39/745b39f43fe250ded54002910f092637.jpg)
 
-### Comment summary
-```
-$ latexdiff --version
-$ latexdiff version-01.tex version-02.tex > diff.tex
-$ pdflatex diff.tex
-```
-
-![w:800](img/diff.png)
+Image from [DOI: 10.1038/nmat3367](https://doi.org/10.1038/nmat3367)
 
 ---
 ![bg opacity](img/vc.jpg)
 
-## What is version control? ##
+## Experiments to study materials ##
 
-![](https://smutch.github.io/VersionControlTutorial/_images/vc-xkcd.jpg)
-
-Photo credit: http://smutch.github.io/VersionControlTutorial/
-
----
-![bg opacity](img/vc.jpg)
-
-## Git ##
-
-* Git is a version control system (VCS) 
-* It helps you keep a record of changes you make to files in your project. 
-* It keeps track of the changes and enables you to create checkpoints for each change. 
-* These checkpoints can also be seen as versions of your project. 
-* For example, you create a web form and add a commit, and you decide to edit that form tomorrow, the new change can be considered a new version of your original work.
+* X-ray Diffraction - Crystalline structure
+* FTIR/Raman - Molecular structure
+* AFM,SEM,TEM - Surface or nano level properties
+* Other specific methods
 
 ---
 ![bg opacity](img/vc.jpg)
 
-## Here's an example! ##
+## Theoretical Analysis ##
 
-![h:350](img/git.png)
+* Most of the materials properties arise due to valence electrons
+* Schrödinger equation can be used to solve the electronic interaction in a atomic / molecular system
+  
+* ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/0de8741a7d26ae98689c7b3339e97dfafea9fd26)
 
----
-![bg opacity](img/vc.jpg)
-
-## Github ##
-
-* Github is a website for hosting your repositories. 
-* A repository is simply a place where you can store your project files and folders. 
-* A new repository is created for each project on Git. On your computer, a repository is represented by a folder. 
-* After working on your project or a part of it on Git (offline), you can push it to your repository on Github.
+* But there is no direct way to solve Schrödinger's equation
+* Numerical methods like Hartree-Fock, Density functional theory, semiempirical methods are used to solve the equation.
 
 ---
 ![bg opacity](img/vc.jpg)
 
-## Here's an another example! ##
+## What are we gonna' see today? ##
 
-![h:500](img/github.png)
-
----
-![bg opacity](img/vc.jpg)
-
-# So how to start with `git`? ##
-
-## Step: 01
-- Install `git` in your local machine
-- Configure it
-
-## Step: 02
-- Create a github account
-- Create a github repository
-- Push your local changes to server
+- Geometry optimization and FTIR, Raman, UV-Vis Absorption, Fluorescence spectrum simulation of methane system
+- Geometry optimization and nonlinear optical properties of ZnO nanoclusters
 
 ---
 ![bg opacity](img/vc.jpg)
 
-## Git Installation ##
+## But wait! What is that Geometry Optimization? ##
 
-- In Ubuntu, install git by the command `sudo apt install git`
-- In windows, download the installer from [here](https://gitforwindows.org/). Run it with administrator privileges. Accept the default values and choose Windows Command Prompt for accessing git.
-- Verify the installation by `git --version`
-- Once you installed `git` define global username and mail ID from terminal or command prompt.
-```
-$ git config --global user.name "Your Name"   
-$ git config --global user.email "your@mail.id"
-```
+![h:500](https://lh3.googleusercontent.com/proxy/9zJo4hvweZqFqxefUYJuSelpgxfSXRhntxx6tFEpGiyUXL0O4QRuhMMSqBNNn52kgxwcwa8jNjuNkC3adQ9UcOpYj2t82sf2K9TH0qGKqe2dflhPcM32)
+
+Source: [http://cmt.dur.ac.uk/sjc/thesis_dlc/node37.html](http://cmt.dur.ac.uk/sjc/thesis_dlc/node37.html)
+
 ---
 ![bg opacity](img/vc.jpg)
 
@@ -138,22 +93,13 @@ $ git config --global user.email "your@mail.id"
 ---
 ![bg opacity](img/vc.jpg)
 
-## Diff with Git ##
+## References:
 
-Install `git-latexdiff` from [here](https://gitlab.com/git-latexdiff/git-latexdiff)
-
-```
-$ nano git-test.tex #Include text
-$ git init
-$ git add git-test.tex
-$ git commit -m 'version 1'
-$ nano git-test.tex #Modify text and commit again
-$ git latexdiff HEAD~1 --main git-test.tex
-```
----
-![bg opacity](img/vc.jpg)
-
-# Overleaf: Cloud Solution #
+1. Computational Materials Science: An Introduction by June Lee
+2. Avogadro: https://avogadro.cc/
+3. Gabedit: http://gabedit.sourceforge.net/
+4. Orca: https://sites.google.com/site/orcainputlibrary/home
+5. MOPAC: http://openmopac.net/MOPAC2016.html
 
 ---
 

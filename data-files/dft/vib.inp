@@ -1,0 +1,8 @@
+! TightSCF B3LYP/G FREQ
+! PrintBasis 6-31G(d,p)
+
+%output
+     print[p_mos] 1
+ end #output
+* xyzfile 0  1 geo.xyz
+

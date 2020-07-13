@@ -1,0 +1,117 @@
+#
+# ASA input
+#
+%sim
+         model IMDHO
+         method Heller
+         AbsRange     2000.0,  100000.0
+         NAbsPoints   1024
+
+         FlRange      2000.0,  100000.0
+         NFlPoints    1024
+
+         RRPRange     2000.0,  100000.0
+         NRRPPoints   1024
+
+         RRSRange        0.0,    4000.0
+         NRRSPoints 4000
+
+         RRS_FWHM 10.0
+
+         AbsScaleMode Ext
+         MCDScaleMode Ext
+         FlScaleMode Rel
+         RamanOrder  1
+
+         EnInput E0
+
+         CAR   0.800
+
+end
+
+%heller
+         IntMethod NumInt
+         NumIntMethod GL
+         IntConvTol      1.000000e-03
+         NumIntTimeTol   1.000000e-03
+         RRIntConvTol    1.000000e-03
+         RRNumIntTimeTol 1.000000e-03
+end
+
+%fit
+         Fit false
+         AbsFit false
+         FlFit false
+         MCDFit false
+         RRPFit false
+         RRSFit false
+         method Simplex
+         WeightsAdjust true
+
+         AbsRange        0.0,  10000000.0
+         FlRange         0.0,  10000000.0
+         MCDRange        0.0,  10000000.0
+         RRPRange        0.0,  10000000.0
+         RRSRange        0.0,  10000000.0
+         AbsName ""
+         FlName  ""
+
+         ExpAbsScaleMode Rel
+         ExpFlScaleMode Rel
+
+         CWAR  -1.000
+         CWAF  -1.000
+         CWAM  -1.000
+
+         NMaxFunc 100
+         MWADRelTol= 1.000000e-04
+
+         SFRRPSimStep= 1.000000e+02
+         SFRRSSimStep 1.000000e+02
+         FREQGStep 1.000000e+01
+         FREQEStep 1.000000e+01
+         E0Step 3.000000e+02
+         SSStep 2.000000e+01
+         TMStep 5.000000e-01
+         CODStep 1.000000e-01
+         GammaStep 5.000000e+01
+         E0SDStep 5.000000e+01
+         SDNCStep 4.000000e-01
+end
+
+$el_states
+5
+   1 91485.31   100.00    0.00     0.0043   0.7182  -0.0161
+   2 91805.46   100.00    0.00     0.3823  -0.0159  -0.6068
+   3 90894.21   100.00    0.00    -0.6049  -0.0048  -0.3830
+   4 99545.09   100.00    0.00    -0.0004  -0.0004  -0.0003
+   5 99531.84   100.00    0.00    -0.0003   0.0017  -0.0014
+
+
+$vib_freq_gs
+9
+    1     1386.453970
+    2     1387.183912
+    3     1388.474111
+    4     1587.174326
+    5     1587.182454
+    6     2903.908133
+    7     3006.066640
+    8     3006.129627
+    9     3006.260946
+
+
+$sdnc
+9 5
+                   1          2          3          4          5    
+      1       1.605518  -2.670238   1.075381  -0.058745   0.136537
+      2       0.108119   0.011080  -0.119944  -0.205967  -1.415220
+      3       1.847365  -0.443531  -1.413580   1.810326  -0.960325
+      4      -1.223133  -0.478032   1.700272   0.013218   0.853342
+      5       1.030088   0.786795  -1.817861  -0.905373   0.887117
+      6       1.537398   1.535349   1.535307   1.936622   1.935849
+      7      -0.525814   0.411852   0.117133  -0.917340  -0.033477
+      8       0.319939  -0.211487  -0.108239   0.370788  -1.056469
+      9      -0.090817   0.513600  -0.414867   0.678762  -0.384402
+
+
