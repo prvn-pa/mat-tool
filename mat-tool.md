@@ -88,6 +88,13 @@ Source: [http://cmt.dur.ac.uk/sjc/thesis_dlc/node37.html](http://cmt.dur.ac.uk/s
 ---
 ![bg opacity](img/vc.jpg)
 
+## What happen when optimize a molecule?
+
+![h:500](https://www.orcasoftware.de/tutorials/_images/opt.gif)
+
+---
+![bg opacity](img/vc.jpg)
+
 ## Demo: DFT for spectral simulations ##
 
 **Molecular input preparation**
