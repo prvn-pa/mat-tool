@@ -2,7 +2,7 @@
 marp: true
 theme: default
 paginate: true
-footer: JMC Organized **'Skill Development Programme Learning Assistance Tools'** | Day 02 | **Materials Science Simulation Tools**
+footer: JMC Organized **'Skill Development Programme on Learning Assistance Tools'** | Day 02 | **Materials Science Simulation Tools**
 backgroundColor: #C2FFD8
 ---
 ![bg opacity](img/vc.jpg)
@@ -13,7 +13,7 @@ Advanced Tools for Materials Science
 **Post Doctoral Fellow, IISER Tirupati**
 ##### ✉:`contact@prvn.info`
 
-View this slide deck here: **https://bit.ly/2OnAzIu**
+View this slide deck here: **bit.ly/2OnAzIu**
 
 ---
 ![bg opacity](img/vc.jpg)
