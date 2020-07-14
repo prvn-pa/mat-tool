@@ -1,5 +1,5 @@
 ---
-marp: false
+marp: true
 theme: default
 paginate: true
 footer: JMC Organized **'Skill Development Programme Learning Assistance Tools'** | Day 02 | **Materials Science Simulation Tools**
@@ -88,9 +88,144 @@ Source: [http://cmt.dur.ac.uk/sjc/thesis_dlc/node37.html](http://cmt.dur.ac.uk/s
 ---
 ![bg opacity](img/vc.jpg)
 
-# Demo: Working with files #
+## Demo: DFT for spectral simulations ##
+
+**Molecular input preparation**
+
+Requires: Marvin Sketch; Avogadro & Gabedit
 
 ---
+![bg opacity](img/vc.jpg)
+
+## Demo: Geometry Optimization ##
+
+Requires: **ORCA**
+
+```
+! Opt TightSCF B3LYP/G
+! PrintBasis 6-31G(d,p)
+%geom
+     	Calc_Hess true
+        Recalc_Hess 10
+ end #geom
+%output
+     print[p_mos] 1
+ end #output
+* xyzfile 0  1 methane.xyz
+```
+
+---
+![bg opacity](img/vc.jpg)
+
+## Demo: FTIR Spectrum ##
+
+Requires: **ORCA**
+
+```
+! TightSCF B3LYP/G FREQ
+! PrintBasis 6-31G(d,p)
+
+%output
+     print[p_mos] 1
+ end #output
+* xyzfile 0  1 geo.xyz
+```
+
+---
+![bg opacity](img/vc.jpg)
+
+## Demo: Raman Spectrum ##
+
+Requires: **ORCA**
+
+```
+! TightSCF B3LYP/G NUMFREQ
+! PrintBasis 6-31G(d,p)
+
+%ELPROP
+   POLAR 1
+END
+
+%output
+     print[p_mos] 1
+ end #output
+* xyzfile 0  1 geo.xyz
+```
+
+---
+![bg opacity](img/vc.jpg)
+
+## Demo: UV & Fluorescence Spectrum ##
+
+Requires: **ORCA**
+
+```
+! B3LYP/G TightSCF NMGrad RIJCOSX GRID6 GRIDX6 RI-SOMF(1X)
+! PrintBasis 6-31G(d,p)
+
+%tddft
+      	nroots 5
+end
+
+%rr
+   	states 1,2,3,4,5
+        HessName "geo.hess"
+        ASAInput true
+end
+
+* xyzfile 0  1 geo.xyz
+```
+---
+
+![bg opacity](img/vc.jpg)
+
+## Demo: Semiemprical Calculations
+
+**Requires:** Avogadro, MOPAC
+
+**Steps:**
+
+1. Input file preparation
+2. Geometry Optimization
+3. Geometry verification
+4. Polarizability calculation
+
+---
+
+![bg opacity](img/vc.jpg)
+
+## Demo: ZnO Nanocluster
+
+**Step: 01**
+
+1. Draw the cluster using Avogadro
+2. Preoptimize with UFF
+3. Extract MOPAC Input
+4. Change the commands in first line
+
+```
+LET AUX LARGE CHARGE=0 GNORM=1 PM7
+```
+
+---
+
+![bg opacity](img/vc.jpg)
+
+## Demo: ZnO Nanocluster
+
+**Step: 02**
+
+1. Do `FORCE` Calculation
+2. Do `POLAR` Calculation
+3. Optionally simulate `HOMO`, `LUMO` and E$_g$
+
+```
+FORCE: LET  AUX LARGE CHARGE=0 FORCE PM7
+POLAR: LET  AUX LARGE CHARGE=0 POLAR PM7
+```
+
+---
+
 ![bg opacity](img/vc.jpg)
 
 ## References:
